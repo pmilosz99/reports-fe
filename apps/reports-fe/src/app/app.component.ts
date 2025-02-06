@@ -1,15 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component'
-import { ReportsComponent } from '@org/reports';
-import { SharedComponent } from '@org/shared';
+import { DefaultLayoutComponent } from './layout/default-layout';
 
 @Component({
   imports: [
-    NxWelcomeComponent, 
     RouterModule, 
-    ReportsComponent, 
-    SharedComponent
+    DefaultLayoutComponent,
   ],
   selector: 'app-root',
   templateUrl: './app.component.html',
