@@ -1,0 +1,12 @@
+.app-default-layout {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .app-default-layout {
+        flex-direction: column-reverse;
+    }
+}

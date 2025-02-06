@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@org/reports": ["libs/reports/src/index.ts"],
-      "@org/shared": ["libs/shared/src/index.ts"]
+      "@org/shared/ui/map": ["libs/shared/ui/map/src/index.ts"],
+      "@org/reports": ["libs/reports/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
